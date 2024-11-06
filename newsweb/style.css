@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    display: inline-block;
+}
+
+.content {
+    padding: 1rem;
+}
+
+.main-news {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.secondary-news {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+
+.secondary-news article {
+    background-color: #e9e9e9;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 30%; /* Bir nechta article lar yonma-yon joylashadi */
+    display: inline-block;
+    vertical-align: top;
+}
+
+.secondary-news h2, .main-news h2, article h3 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
